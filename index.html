@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <script src="app.js" defer></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="cardCenter">
-        <div class="card">
-            <div class="card-title"><b>Team StandUp Tracker</b></div>
-            <div class="card-description">This list will automatically update your team standup. Add what you are working on, mark done when completed and delete after the Day</div>
-            
-            <div class="input-container" id="addTask">
-                <input id=inputField type="text" class="data-input" placeholder="Enter you Task">
-                <button  class="card-button" id="addButton">Add</button>
-                <div>
-                    <ul id="list" ></ul>
-                </div>
-                <button class="card-button" id="allButton" >All</button>
-                <button class="card-button" id="activeButton">Active</button>
-                <button class="card-button" id="doneButton">Completed</button>
-                <button class="card-button" id="clearButton">Clear Completed</button>
-            </div> 
+      <div class="card">
+        <div class="card-title"><b>Team StandUp Tracker</b></div>
+        <div class="card-description">
+          This list will automatically update your team standup. Add what you
+          are working on, mark done when completed and delete after the Day
         </div>
+
+        <div class="input-container" id="addTask">
+          <input
+            id="inputField"
+            type="text"
+            class="data-input"
+            placeholder="Enter you Task"
+          />
+          <button class="card-button" id="addButton">Add</button>
+          <div>
+            <ul id="list"></ul>
+          </div>
+          <button class="card-button" id="allButton">All</button>
+          <button class="card-button" id="activeButton">Active</button>
+          <button class="card-button" id="doneButton">Completed</button>
+          <a href="#" class="special-button" id="clearButton"
+            >Clear Completed</a
+          >
+          <p id="number"></p>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
